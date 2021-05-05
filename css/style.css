@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-image: url("../assets/cube-442544_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#father{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vw;
+}
+
+.container{
+    width: 600px;
+    height: 800px;
+    background-color: rgb(36, 144, 216);
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(67, 0, 252);
+    border-radius: 80px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Itim', cursive;
+}
+
+button{
+    margin-top: 80px;
+    margin-left: 175px;
+    width: 250px;
+    height: 70px;
+    font-size: 40px;
+    opacity: 1;
+}
+
+#d{
+    font-size: 120px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#number{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 400px;
+    height: 33px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-indent: 120px;
+}
+
+@media (max-width: 1440px){
+    .container{
+        height: 730px;
+    }
+    #father{
+        margin-top: 3vw;
+    }
+}
+
+
+
+@media (max-width: 540px) {
+    .container{
+        width: 400px;
+        height: 525px;
+    }
+    button{
+        margin: 0;
+        margin-left: 120px;
+        width: 160px;
+        height: 50px;
+        font-size: 20px;
+    }
+    #number{
+        margin: 0;
+        width: 200px;
+        text-indent: 25px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+    img{
+        width: 300px;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    #d{
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 320px) {
+    #number{
+        margin-left: 50px;
+    }
+    button{
+        margin-left: 70px;
+    }
+    img{
+        margin-left: 10px;
+    }
+
+}
